@@ -1,4 +1,5 @@
-FROM docker
+FROM docker:dind
+FROM node:12
 
 WORKDIR /app
 
